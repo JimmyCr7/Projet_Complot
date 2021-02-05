@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Complot ou Realite - Authentification</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<!-- POLICES -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"/>
+
+	<link rel="stylesheet" type="text/css" href="CSS/index.css"/>
+	
+	<!-- FONTAWESOME -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"/>
+</head>
+<body>
+	<!-- DEBUT ENTETE -->
+	<header>
+		<div>
+			<h1>Complot ou Realite ?</h1>
+		</div>
+		
+		<!-- LIENS AUTHENTIFICATION -->
+		<nav>
+			<ul>
+				<li><a href="#">Connexion</a></li>
+				<span> | </span>
+				<li><a href="#">Inscription</a></li>
+			</ul>
+		</nav>
+		
+	</header>
+	<!-- FIN ENTETE -->
+
+	<!-- BLOC PRINCIPAL -->
+	<div id="boxPrincipal">
+		<div id="boxInscription">
+			<h2>Inscription</h2>
+
+			<form action="#" method="POST">
+
+				<label>Pseudo</label>
+				<input type="text" name="pseudo" required/>
+				<label>Mot de Passe</label>
+				<input type="password" name="mdp" required/>
+				<label>Retaper le Mot de Passe</label>
+				<input type="password" name="mdpR" required/>
+
+				<input type="submit" name="validerInscription" value="Inscription" />
+			</form>
+		</div>
+		<div id="boxConnexion">
+			<h2>Connexion</h2>
+
+			<form action="#" method="POST">
+
+				<label>Pseudo</label>
+				<input type="text" name="pseudoC" required/>
+				<label>Mot de Passe</label>
+				<input type="password" name="mdpC" required/>
+
+				<input type="submit" name="validerConnexion" value="Connexion" />
+			</form>
+		</div>
+	</div>
+	<!-- FIN BLOX PRINCIPAL -->
+</body>
+</html>
