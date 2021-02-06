@@ -9,10 +9,13 @@ h2 {
   font-size: 2.4em;
   display: inline-block; }
 
-h1, h2 {
+h3 {
+  font-size: 2.0em; }
+
+h1, h2, h3 {
   font-family: "Bebas Neue", Arial; }
 
-a, label, p, input {
+a, label, p, input, button {
   font-family: 'Special Elite', Arial; }
 
 header {
@@ -57,6 +60,37 @@ header ul {
         font-size: 1.3em; }
   header ul > span {
     font-size: 1.4em; }
+
+div#boxRegles {
+  margin: 0px 25px; }
+
+h3#headerListeBtn {
+  margin-left: 25px !important; }
+
+div#boxListeBtn {
+  margin: 0px 25px; }
+  div#boxListeBtn > button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-transition-property: color, background-color, border-color;
+    -moz-transition-property: color, background-color, border-color;
+    transition-property: color, background-color, border-color;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    height: auto;
+    font-size: 1.1em;
+    margin-right: 25px;
+    color: #fff;
+    padding: 15px;
+    background-color: #222831;
+    outline: none;
+    border: 2px solid #222831; }
+    div#boxListeBtn > button:hover {
+      color: #222831;
+      background-color: #fff;
+      border-color: #222831; }
 
 div.boxDiscussion {
   margin: 0px 25px;
